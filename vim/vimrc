@@ -18,6 +18,10 @@ set cmdheight=2
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
+let mapleader=","
+
+" insert pry
+map <leader>ip orequire 'pry';binding.pry<CR><Esc>
 
 " Ignore case when searching
 set ignorecase
