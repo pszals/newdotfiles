@@ -1,0 +1,10 @@
+packages: [
+  "atom-beautify"
+  "autocomplete-paths"
+  "emmet"
+  "file-icons"
+  "language-slim"
+  "linter-rubocop"
+  "package-sync"
+  "ruby-slim"
+]

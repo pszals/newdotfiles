@@ -1,0 +1,16 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "8926af9c-4f3b-4120-ad78-7b6c8e3839d9"
+  core:
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontSize: 17
+    invisibles: {}
+  "exception-reporting":
+    userId: "3c3c78e1-8740-bec1-e223-f1841ceec4b6"
+  "one-light-ui": {}
+  welcome:
+    showOnStartup: false
