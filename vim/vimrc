@@ -12,6 +12,7 @@ syntax enable
 set background=dark
 colorscheme solarized
 set number
+set binary
 set cursorline
 " Height of the command bar
 set cmdheight=2
@@ -126,3 +127,4 @@ set clipboard=unnamed
 " CtrlP settings for large projects
 let g:ctrlp_max_depth=40
 let g:ctrlp_max_files=0
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
