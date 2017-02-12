@@ -14,9 +14,19 @@ Configure Git: `ln -s newdotfiles/git/gitconfig ~/.gitconfig`
 
 ## VIM
 
+Move the current configuration folders somewhere safe: 
+
+`mv ~/.vim ~/.vim`
+
+`mv ~/.vimrc ~/.vimrc`
+
+Link up the new configs:
+
 `ln -s newdotfiles/vim ~/.vim`
 
 `ln -s newdotfiles/vim/vimrc ~/.vimrc`
+
+Use the config submodules:
 
 `cd newdotfiles/vim`
 
@@ -24,4 +34,8 @@ Configure Git: `ln -s newdotfiles/git/gitconfig ~/.gitconfig`
 
 `git submodule update`
 
-This assumes that no config files exist. Remove/save them elsewhere for these to take over.
+## Atom
+
+Move the current atom configuration somewhere safe: `mv ~/.atom ~/.atom_old`
+
+Link the config folder from the dotfiles: `ln -s newdotfiles/tagatom/atom ~/.atom`
