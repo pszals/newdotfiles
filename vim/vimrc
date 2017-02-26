@@ -110,7 +110,7 @@ imap <buffer> <F4> <Plug>(seeing-is-believing-mark)
 " sets cursor at correct indentation on new lines
 function! IndentWithI()
     if len(getline('.')) == 0
-        return "\"_ccO"
+        return "\"_cc"
     else
         return "i"
     endif
