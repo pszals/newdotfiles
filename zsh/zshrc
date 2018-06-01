@@ -9,6 +9,10 @@ ZSH_THEME="robbyrussell"
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH="$PATH:`yarn global bin`"
 
+# Do not update homebrew when running brew install due to slow internet speeds
+# https://github.com/Homebrew/brew/issues/1670#issuecomment-267096602
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 #Clojure(script) aliases
 alias lrs="lein ring server"
 alias lbuildo="lein cljsbuild once"
